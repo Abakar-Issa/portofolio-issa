@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio personnel - Issa </title>
+  <link rel = "stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ef3a41191e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+  <div class="container">
+      <nav>
+          <img src="images/logo_issa.png" class="logo">
+          <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portofolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick = "openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p class="p-no-phone">Python / Java Developper</p>
+        <h3 class="no-phone">Hi, I'm <span>Issa </span> Abakar, welcome <br> on my  portofolio website. </h3>
+        <h4 class="phone"> Hi, I'm <span> Issa.</span> </h4>
+        <p class="p-phone"> Python / Java Developper </p>
+      </div>
+  </div>
+</div>
+
+<!-----------about---------->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/photo_issa.jpg">
+      </div>
+      <div class="about-col-2">
+        <h3 class="sub-title">About Me</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat modi at asperiores illo, explicabo quis eligendi voluptates praesentium amet pariatur! Commodi nobis incidunt reiciendis, sunt sint velit odio alias non.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+          <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+          <p class="tab-links" onclick="opentab('education')"> Education</p>
+
+        </div>
+        <div class="tab-contents active-tab" id = "skills">
+          <ul>
+            <li><span>Software Developpement</span><br>Python and Java Software Developpement </li>
+            <li><span>Web Developpement</span><br>Web app Developpement </li>
+            <li><span>Data science </span><br>Machine Learning / Deep Learning </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id = "experience">
+          <ul>
+            <li><span>05/2022 - Current | Data Science Intern at IRIT Institute </span> <br> Data Augmentation with GAN ( Generative Adversarial Network) </li>
+            <li><span>04/2021 - 06/2021 | Web Developpement Intern at Wavy Group </span><br> Development of the Wavy website </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id = "education">
+          <ul>
+            <li><span>University of Paul Sabatier (France) | 2021 - 2022 </span><br>Master 1 in Computer Science : Artificial Intelligence </li>
+            <li><span>University of Caen Normandy (France) | 2018 - 2021 </span><br>Computer science degree </li>
+            <li><span>Carmen Rosales High School (Tchad) | 2017 </span><br>Scientific secondary school diploma </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-------- Services -->
+<div id="services">
+  <div class="container">
+    <h3 class="sub-title">My Services</h3>
+
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Software Developpement</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, pariatur. Harum necessitatibus eos nesciunt molestias velit saepe dicta sunt suscipit ullam nostrum quidem quo ipsum, natus consectetur quod molestiae neque.</p>
+        <a href="#"> Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Developpement</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, pariatur. Harum necessitatibus eos nesciunt molestias velit saepe dicta sunt suscipit ullam nostrum quidem quo ipsum, natus consectetur quod molestiae neque.</p>
+        <a href="#"> Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-database"></i>
+        <h2>Data science</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, pariatur. Harum necessitatibus eos nesciunt molestias velit saepe dicta sunt suscipit ullam nostrum quidem quo ipsum, natus consectetur quod molestiae neque.</p>
+        <a href="#"> Learn more</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-------- portfolio -->
+
+<div id="portfolio">
+  <div class="container">
+    <h3 class="sub-title">My projects</h3>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work.png">
+        <div class="layer">
+          <h3>Project 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae adipisci nobis repellat sint maxime rerum aut? Iusto, necessitatibus error.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work.png">
+        <div class="layer">
+          <h3>Project 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae adipisci nobis repellat sint maxime rerum aut? Iusto, necessitatibus error.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work.png">
+        <div class="layer">
+          <h3>Project 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae adipisci nobis repellat sint maxime rerum aut? Iusto, necessitatibus error.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-------- Contacts -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h3 class="sub-title">Contact Me</h3>
+        <p> <i class="fa-solid fa-paper-plane"></i> issaabakar17@gmail.com</p>
+        <p> <i class="fa-solid fa-phone"></i> 0758342537</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/issa-abakar-564248159/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Abakar-Issa"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="images/dev-python.pdf" download class="btn btn2"> Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form onsubmit="sendEmail(); reset(); return false; " >
+          <input type="text"  id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required >
+          <textarea id="message" name="message"  rows="6" placeholder="Your Message" ></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span> 
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p> Copyright © 2022 , Issa. </p>
+  </div>
+</div>
+
+<script>
+
+  var  tablinks = document.getElementsByClassName("tab-links");
+  var  tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for( tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+
+    for( tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+
+<!--- script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzkJmtbecYLA4hVKnXtjZRlm8AGFlagOQRZSK3W2GMwlpFWQPXbxS8iSgw_RfxVpj8bwg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully !"
+        setTimeout( function(){
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script --->
+
+<!-- Custom Theme JavaScript >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src='google-sheet.js'></script-->
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<!-- script>
+  function sendEmail(){
+        Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "issaabakar17@gmail.com",
+        Password : "FC1D8F2ECBF0F1B3CD11715F4CF6B4DE6EDE",
+        To : 'issaabakar17@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "New contact ",    
+        Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        );
+  }
+</script -->
+<script>
+  function sendEmail(){
+
+    Email.send({
+    SecureToken : "76fc4721-7ea2-4210-bfb5-48d9197b4f71", 
+    To : 'issaabakar17@gmail.com',
+    From :  document.getElementById("email").value,
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+  }
+</script>
+</body>
+</html>
